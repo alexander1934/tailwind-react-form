@@ -1,0 +1,23 @@
+.main {
+  @apply bg-gray-700 text-center w-96 h-1/2 rounded-3xl p-6;
+}
+
+.sign {
+  @apply text-3xl text-white font-medium;
+}
+
+.nameFields {
+  @apply flex justify-between;
+}
+
+.topInput {
+  @apply text-white mt-6 w-40 bg-gray-500 h-10 rounded-md p-4 focus:outline-none
+}
+
+.bottomInput {
+  @apply text-white mt-6 w-full bg-gray-500 h-10 rounded-md p-4 focus:outline-none
+}
+
+.button {
+  @apply mt-16 bg-blue-400 w-40 h-12 rounded-3xl text-white
+}
